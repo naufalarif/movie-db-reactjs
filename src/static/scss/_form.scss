@@ -1,0 +1,45 @@
+.form {
+  h3{
+    margin-bottom: 30px;
+  }
+  input {
+    border-radius: 6px;
+    width: 100%;
+    padding: 15px 20px;
+    border: 6px;
+    margin-bottom: 30px;
+    background-color: $grey;
+    color: $white;        
+  }
+  ::placeholder {
+    color: $white;
+  }
+  Button {
+    width: 100%;
+    padding: 15px 20px;
+    border-radius: 6px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    background-color: $color-primary;
+    color: $white;
+    font-weight: bold;
+  }
+  p {
+    color: $grey;
+  }
+  span {
+    color: $white;
+    cursor: pointer;
+    font-weight: 600;
+  }
+}
+
+.loading-form {
+  text-align: center;
+}
+
+.spinner-border {
+    margin-top: 45px;
+    margin-bottom: 204px;
+}

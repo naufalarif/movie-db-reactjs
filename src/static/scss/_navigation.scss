@@ -1,0 +1,19 @@
+.navbar {
+    background-color: $color-secondary;
+    color: $white
+}
+
+.navbar-nav {
+    color: $white;
+    cursor: pointer;
+}
+
+.active {
+    color: $white;
+    background-color: $color-secondary;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: $grey;
+}

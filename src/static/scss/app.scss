@@ -1,0 +1,28 @@
+$color-primary: #db0000;
+$color-secondary: #060709;
+$color-action: #B01712;
+$disabled-btn: rgb(240, 85, 80);
+$color-background: #161515;
+$black: #272626;
+$choco: #564d4d;
+$grey: #A49FA1;
+$white: #fff;
+
+@import '_homepage.scss';
+@import '_login.scss';
+@import '_detailpage.scss';
+@import '_register.scss';
+@import '_navigation.scss';
+@import '_card.scss';
+@import '_jumbotron.scss';
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: $color-background;
+    color: $white;
+}
